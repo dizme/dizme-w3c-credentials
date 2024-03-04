@@ -4,10 +4,10 @@
       <div class="flex flex-row justify-between gap-5">
         <div class="flex flex-row gap-4 items-center">
           <div class="flex h-5 shrink-0 items-center">
-            <img alt="walt.id" class="h-7 w-auto" src="/logo.png" />
+            <img alt="infocert" class="h-7 w-auto" src="/logo.png" />
           </div>
           <div class="flex flex-col">
-            <span class="text-gray-50 font-bold text-2xl">walt.id
+            <span class="text-gray-50 font-bold text-2xl">EWC
               <span class="text-primary-400 text-1xl">CREDENTIALS</span></span>
           </div>
         </div>
@@ -21,7 +21,7 @@
           </nav>
           <div class="border-l border-slate-800 mx-5"></div>
           <div class="flex flex-row">
-            <NuxtLink href="https://github.com/walt-id" target="_blank">GitHub</NuxtLink>
+            <NuxtLink href="https://github.com/dizme" target="_blank">GitHub</NuxtLink>
           </div>
         </div>
       </div>
@@ -157,18 +157,18 @@ function toggleMobileMenu() {
 // }
 
 const headerNavigation: { title: string; url: string }[] = [
-  {
-    title: "Homepage",
-    url: "https://walt.id",
-  },
-  {
-    title: "Community",
-    url: "https://walt.id/discord"
-  },
-  {
-    title: "Docs",
-    url: "https://docs.oss.walt.id/",
-  },
+  // {
+  //   title: "Homepage",
+  //   url: "https://walt.id",
+  // },
+  // {
+  //   title: "Community",
+  //   url: "https://walt.id/discord"
+  // },
+  // {
+  //   title: "Docs",
+  //   url: "https://docs.oss.walt.id/",
+  // },
 ];
 </script>
 

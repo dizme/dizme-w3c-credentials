@@ -1,0 +1,43 @@
+{
+    "@context": ["https://www.w3.org/2018/credentials/v1"],
+    "type": ["VerifiableCredential", "PID"],
+    "credentialSubject": {
+        "family_name": "family_name", // mandatory, tstr
+        "given_name": "given_name", // mandatory, tstr
+        "birth_date": "birth_date", // mandatory, full-date
+        "age_over_18": "age_over_18", // mandatory, bool
+        "age_over_NN": "age_over_NN", // optional, bool (NN is int <> 18)
+        "age_in_years": "age_in_years", // mandatory, uint
+        "age_birth_year": "age_birth_year", // mandatory, uint
+        "unique_id": "uuid", // mandatory, tstr
+        "family_name_birth": "family_name_birth", // optional, tstr
+        "given_name_birth": "given_name_birth", // optional, tstr
+        "birth_place": "birth_place", // optional, tstr
+        "birth_country": "birth_country", // optional, tstr
+        "birth_state": "birth_state", // optional, tstr
+        "birth_city": "birth_city", // optional, tstr
+        "resident_address": "resident_address", // optional, tstr
+        "resident_country": "resident_country", // optional, tstr
+        "resident_state": "resident_state", // optional, tstr
+        "resident_city": "resident_city", // optional, tstr
+        "resident_postal_code": "resident_postal_code", // optional, tstr
+        "resident_street": "resident_street", // optional, tstr
+        "resident_house_number": "resident_house_number", // optional, tstr
+        "gender": "gender", // optional, uint
+        "nationality": "nationality" // optional, tstr (Alpha-2 country code)
+    },
+    "id": "identity#PID#uuid",
+    "issued": "2021-08-31T00:00:00Z",
+    "issuer": {
+        "id": "did:key:z6MkrHKzgsahxBLyNAbLQyB1pcWNYC9GmywiWPgkrvntAZcj",
+        "image": {
+            "id": "https://www.infocert.it/content/uploads/2021/09/logo.svg",
+            "type": "Image"
+        },
+        "name": "Infocert",
+        "type": "Profile",
+        "url": "https://www.infocert.it/content/uploads/2021/09/logo.svg"
+    },
+    "validFrom": "2021-08-31T00:00:00Z",
+    "issuanceDate": "2021-08-31T00:00:00Z"
+}
