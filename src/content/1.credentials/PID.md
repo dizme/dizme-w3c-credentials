@@ -34,13 +34,13 @@
     "issuer": {
         "id": "did:key:z6MkrHKzgsahxBLyNAbLQyB1pcWNYC9GmywiWPgkrvntAZcj",
         "image": {
-            "id": "https://www.infocert.it/content/uploads/2023/07/infocert-logo-white.svg",
+            "id": "https://www.infocert.it/content/uploads/2021/09/logo.svg",
             "type": "Image"
         },
         "name": "Infocert",
         "country": "IT",
         "type": "Profile",
-        "url": "https://www.infocert.it"
+        "url": "https://www.infocert.it/"
     },
     "validFrom": "2021-08-31T00:00:00Z",
     "issuanceDate": "2021-08-31T00:00:00Z"
