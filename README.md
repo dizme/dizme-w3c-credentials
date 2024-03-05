@@ -2,7 +2,7 @@
 
 A collection of W3C Verifiable Credential conform data schemas
 
-Hosted under: https://credentials.walt.id/
+Hosted under: https://credentials.dizme.io/ (*Currently unavailable*)
 
 # Setup
 ```shell
