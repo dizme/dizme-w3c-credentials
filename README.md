@@ -12,6 +12,6 @@ bun dev
 
 # Docker
 ```shell
-docker build -t waltid/vc-repository .
-docker run -p3000:3000 -i -t waltid/vc-repository
+docker build -t dizme/vc-repository .
+docker run --name dizme-vc-repository -p 3000:3000 -i -t dizme/vc-repository
 ```
