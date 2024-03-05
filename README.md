@@ -1,4 +1,4 @@
-# walt.id Credentials
+# Dizme W3C Credentials
 
 A collection of W3C Verifiable Credential conform data schemas
 
