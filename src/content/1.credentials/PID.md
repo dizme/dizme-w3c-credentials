@@ -56,7 +56,7 @@
         "id": "<issuerDid>"
     },
     "credentialSubject": {
-        "unique_id": "<subjectDid>"
+        "unique_id": "<uuid>"
     },
     "issuanceDate": "<timestamp>"
 }
