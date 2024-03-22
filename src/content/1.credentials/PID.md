@@ -9,7 +9,6 @@
         "given_name": "given_name", 
         "birth_date": "birth_date", 
         "age_over_18": "age_over_18", 
-        "age_over_NN": "age_over_NN", 
         "age_in_years": "age_in_years", 
         "age_birth_year": "age_birth_year",
         "unique_id": "uuid", 
